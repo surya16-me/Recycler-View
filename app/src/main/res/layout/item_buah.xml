@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_fruit"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        />
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="16pt"
+        android:fontFamily="casual"
+        android:layout_toRightOf="@+id/img_fruit"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="13dp"
+
+        />
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/img_fruit"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="93dp"
+        android:text="SHARE"
+        />
+    <Button
+        android:id="@+id/btn_see"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/btn_share"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="93dp"
+        android:text="LIHAT"
+        />
+
+
+
+</RelativeLayout>
